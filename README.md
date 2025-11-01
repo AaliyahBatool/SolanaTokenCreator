@@ -2,8 +2,6 @@
 
 A production-ready **Solana Token Creator Dashboard** built with **Next.js**, **TailwindCSS**, and **Web3.js**, allowing users to create and manage SPL tokens directly from the browser — no backend or database required.
 
-![Solana Token Creator Demo](./public/demo.png)
-
 ---
 
 ## 🚀 Features
@@ -16,7 +14,6 @@ A production-ready **Solana Token Creator Dashboard** built with **Next.js**, **
 - 💼 **Automatic Wallet Detection** via any Solana-compatible wallet  
   (e.g., Phantom, Solflare, Backpack — not limited to one wallet)  
 - 🎨 Clean UI built with **TailwindCSS** + **ShadCN**  
-- ⚡ Built entirely client-side — **no backend, no MongoDB**
 
 ---
 
@@ -26,7 +23,6 @@ A production-ready **Solana Token Creator Dashboard** built with **Next.js**, **
 - **TailwindCSS + ShadCN** – Styling and UI Components  
 - **Solana Web3.js** – Blockchain interaction  
 - **@solana/spl-token** – Token creation & minting  
-- **React Query** – Data fetching and caching  
 - **Zustand** – Lightweight state management  
 - **React Hot Toast** – User notifications  
 
