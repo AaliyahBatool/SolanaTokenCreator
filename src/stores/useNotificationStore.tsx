@@ -1,9 +1,19 @@
-import React from 'react'
+import { create } from 'zustand';
+import { produce } from "immer";
 
-const useNotificationStore = () => {
-  return (
-    <div>useNotificationStore</div>
-  )
+interface NotificationStore {
+  notifications: Array<{
+    type: string;
+    message: string;
+    description?: string;
+    txid?: string;
+  }>;
+  set: (x: any) => void;
 }
 
-export default useNotificationStore
+const useNotificationStore = create<NotificationStore>((set, _get) => ({
+  notifications: [],
+  set: (fn) => set(produce(fn)),
+}))
+
+export default useNotificationStore;
