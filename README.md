@@ -1,115 +1,41 @@
-<<<<<<< HEAD
-# Solana Token Creator Dapp
+# 🌐 Solana Token Creator DApp
 
-Build And Deploy Solana Token Creator Dapp Using TypeScripts, NextJs, Tailwind on MainNet & Devnet
+A production-ready **Solana Token Creator Dashboard** built with **Next.js**, **TailwindCSS**, and **Web3.js**, allowing users to create and manage SPL tokens directly from the browser — no backend or database required.
 
-Build your first Solana Token Creator Dapp Using Nestjs, Tyscript as frontend and Solana SDK with 100% decentralization, In the source code file you will get the complete source code of Solana Token Creator Dapp, which you can see in the tutorial
+![Solana Token Creator Demo](./public/demo.png)
 
-## Project Overview
+---
 
-![alt text](https://www.daulathussain.com/wp-content/uploads/2024/01/Creat-Solana-Token-Creator-Dapp-Full-stack-solana-project.jpg)
+## 🚀 Features
 
-## Instruction
+- 🪙 **Create SPL Tokens** on Solana Devnet or Testnet  
+- 🔍 **View Token Metadata** (mint address, decimals, supply)  
+- 💸 **Airdrop SOL** to connected wallets for testing  
+- 🌐 **Select Network** — choose between Devnet, Testnet, or Mainnet  
+- 📊 **On-Chain Transaction Links** integrated with Solana Explorer  
+- 💼 **Automatic Wallet Detection** via any Solana-compatible wallet  
+  (e.g., Phantom, Solflare, Backpack — not limited to one wallet)  
+- 🎨 Clean UI built with **TailwindCSS** + **ShadCN**  
+- ⚡ Built entirely client-side — **no backend, no MongoDB**
 
-Kindly follow the following Instructions to run the project in your system and install the necessary requirements
+---
 
-- [Final Source Code](https://www.theblockchaincoders.com/sourceCode/create-solana-token-creator-dapp)
+## 🧩 Tech Stack
 
-#### Setup Video
+- **Next.js 14** – Frontend Framework  
+- **TailwindCSS + ShadCN** – Styling and UI Components  
+- **Solana Web3.js** – Blockchain interaction  
+- **@solana/spl-token** – Token creation & minting  
+- **React Query** – Data fetching and caching  
+- **Zustand** – Lightweight state management  
+- **React Hot Toast** – User notifications  
 
-- [Final Code Setup video](https://youtu.be/TuDSjk2GSms?si=IyAakYYgMANQcHJJ)
+---
 
-```https://code.visualstudio.com/download
-  WATCH: Setup & Demo Of Project
-```
+## 🛠️ Installation & Setup
 
-#### Install Vs Code Editor
+### 1. Clone the repository
 
-```https://code.visualstudio.com/download
-  GET: VsCode Editor
-```
-
-#### NodeJs & NPM Version
-
-```
-  URL: https://nodejs.org/en/download
-  NodeJs: v18.12.1 / LATEST
-  NPM: 8.19.2
-```
-
-#### Clone Starter File
-
-```
-  GET: Project Starter File Download
-  URL: https://github.com/daulathussain/Solana-Token-Starter-File
-```
-
-All you need to follow the complete project and follow the instructions which are explained in the tutorial by Daulat
-
-## Final Code Instruction
-
-If you download the final source code then you can follow the following instructions to run the Dapp successfully
-
-#### Setup Video
-
-```
-  WATCH: Setup & Demo Of Project
-  URL: https://code.visualstudio.com/download
-```
-
-#### Final Source Code
-
-```
-  Download the Final Source Code
-  URL: https://www.theblockchaincoders.com/SourceCode
-```
-
-#### Install Vs Code Editor
-
-```
-  GET: VsCode Editor
-  URL: https://code.visualstudio.com/download
-```
-
-#### PINATA IPFS
-
-```
-  OPEN: PINATA.CLOUD
-  URL:https://pinata.cloud/
-```
-
-#### ALCHEMY
-
-```
-  OPEN: ALCHEMY.COM
-  URL: https://www.alchemy.com/
-```
-
-#### PHANTOM
-
-```
-  OPEN: PHANTOM.COM
-  URL: https://phantom.com/
-```
-
-#### SOLANA PLAYGROUND ID
-
-```
-  OPEN: SOLANA PLAYGROUND ID
-  URL:https://beta.solpg.io/
-```
-
-## Important Links
-
-- [Get Pro Blockchain Developer Course](https://www.theblockchaincoders.com/pro-nft-marketplace)
-- [Support Creator](https://bit.ly/Support-Creator)
-- [All Projects Source Code](https://www.theblockchaincoders.com/SourceCode)
-
-## Authors
-
-- [@theblockchaincoders.com](https://www.theblockchaincoders.com/)
-- [@consultancy](https://www.theblockchaincoders.com/consultancy)
-- [@youtube](https://www.youtube.com/@daulathussain)
-=======
-# SolanaTokenCreator
->>>>>>> ae16fe4f6ca2c804bf41a7b44687aac7cb334fb5
+```bash
+git clone https://github.com/AaliyahBatool/SolanaTokenCreator.git
+cd SolanaTokenCreator
