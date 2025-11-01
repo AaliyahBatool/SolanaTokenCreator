@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Solana Token Creator Dapp
 
 Build And Deploy Solana Token Creator Dapp Using TypeScripts, NextJs, Tailwind on MainNet & Devnet
@@ -109,3 +110,6 @@ If you download the final source code then you can follow the following instruct
 - [@theblockchaincoders.com](https://www.theblockchaincoders.com/)
 - [@consultancy](https://www.theblockchaincoders.com/consultancy)
 - [@youtube](https://www.youtube.com/@daulathussain)
+=======
+# SolanaTokenCreator
+>>>>>>> ae16fe4f6ca2c804bf41a7b44687aac7cb334fb5
